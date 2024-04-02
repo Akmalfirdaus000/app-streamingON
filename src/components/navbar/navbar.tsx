@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <header className=' px-10 fixed flex z-10 text-slate-100 m-5 items-center p-3 bg-slate-700 rounded-full border'>
+    <header className=' px-10 fixed flex z-10 text-slate-100 m-5 items-center p-3 bg-slate-800 rounded-full border'>
         <div className=' font-bold font-serif text-4xl'>
             <span className='flex'>Stream <p className='text-red-500'>ON</p></span>
         </div>

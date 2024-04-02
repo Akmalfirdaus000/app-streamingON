@@ -7,7 +7,9 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
+body{
+  background:black;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -15,10 +17,13 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex:0 0 30%;
+  min-width: 0;
 }

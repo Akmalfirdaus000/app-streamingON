@@ -1,28 +1,18 @@
 import Image from 'next/image'
 import React from 'react'
-import { f1, f2, f3, f4, f5, FrameHero, heroq, SpidermanHero } from '../../../../../../public/img/hero'
 import Link from 'next/link'
+import { TitanHero } from '../../../../../../public/img/anime'
+
 
 const Hero = () => {
   return (
     <section>
         <Image
-        src={heroq}
+        src={TitanHero}
         alt='hero'
         layout=''
         />
-        <div className=' absolute top-40 left-[500px]'>
-            <Image 
-            src={SpidermanHero}
-            height={300}
-            width={300}
-            alt='spiderman'
-            className=''
-            />
-           
-            
-        </div>
-      
+        <div className='absolute text-white top-72 left-28 font-extrabold uppercase text-5xl'>Attack On Titan</div>
     </section>
   )
 }
